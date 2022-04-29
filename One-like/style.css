@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    width: 40%;
+    padding: 10px;
+}
+
+.header, 
+.like{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.like button {
+    background-color: #FFD966;
+    margin-left: 10px;
+    padding: 2.5px 5px;
+    border: 2px solid black;
+    box-shadow: 2px 2px #999;
+    cursor: pointer;
+}

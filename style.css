@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header {
+    margin: auto;
+    width: 80%;
+}
+
+.one {
+    align-items: left;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.two {
+    text-align: center;
+    padding: 10px;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.col-2 {
+    flex: 1;
+    width: auto;
+    border: 4px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    height: 275px;
+}
+.col-2 img {
+    height: 150px;
+}
+.col-body{
+    margin-top: 20px;
+}
+
+.col-3 {
+    flex: 3;
+    width: auto;
+    margin-left: 10px;
+} 
+.container{
+    border: 4px solid black;
+    width: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 100px;
+}
+
+.like-header, 
+.like{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container p{
+    margin-top: 10px;
+}
+.like button {
+    background-color: #FFD966;
+    margin-left: 10px;
+    padding: 2.5px 5px;
+    border: 2px solid black;
+    box-shadow: 2px 2px #999;
+    cursor: pointer;
+} 
